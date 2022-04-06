@@ -43,6 +43,3 @@ buttonRespuesta.addEventListener("click",() =>{
   
 
 
-
-
-
