@@ -24,7 +24,7 @@ mybutton.addEventListener("click", (e) =>{
 buttonRespuesta.addEventListener("click",() =>{
     console.log(firstInput.value)
 
-    if (firstInput.value === "aguilar" && secondInput.value.toLowerCase() === "cestau") {
+    if (firstInput.value.toLowerCase() === "aguilar" && secondInput.value.toLowerCase() === "cestau") {
         alert("Respuesta correcta!") 
             img.style.display = "block"
        }
